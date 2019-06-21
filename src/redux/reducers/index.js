@@ -1,7 +1,3 @@
-import {combineReducers} from "redux";
-
-const rootReducer = combineReducers({
-  courses
-})
-
-export default rootReducer
+export default (state) => {
+  return state
+}
