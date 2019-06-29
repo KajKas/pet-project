@@ -9,7 +9,7 @@ const CoursePage = () => {
     <div>
       <h1>course name</h1>
       <iframe
-        title={courses[activeCourse].name}
+        title={courses[activeCourse].name} // TODO: change to getting from the address, otherwise fails after reload
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         src={courses[activeCourse].address}
         frameBorder="0"

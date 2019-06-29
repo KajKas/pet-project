@@ -11,19 +11,21 @@ const MyCoursesPage = () => {
     store.dispatch(setActiveCourse(id))
   }
 
-    return (
-      <div>
-        <h1>List of your courses:</h1>
-        {courses.map(course => (
+  return (
+    <div>
+      <h1>List of your courses:</h1>
+      {
+        courses.map(course => (
           <div onClick={handleCourseClick.bind(null, course.id)} key={course.id}>
             <Link  to={'/courses/' + course.id}>
               <img src={placeholder} alt="link-to-video" />
               <h3>{course.name}</h3>
             </Link>
           </div>
-        ))}
-      </div>
-    )
+        ))
+      }
+    </div>
+  )
 }
 
 export default MyCoursesPage
