@@ -8,9 +8,7 @@ import store from './redux/store'
 const render = () => {
   fancyLog()
   return ReactDOM.render(
-    <Router>
-      <App />
-    </Router>,
+    <App store={store} />,
     document.getElementById("root")
   )
 }
