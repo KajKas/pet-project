@@ -1,16 +1,24 @@
 import React from "react";
-import { render } from "react-dom";
-import {Provieder as ReduxProvider} from 'react-redux'
+import ReactDOM from 'react-dom'
 import "./index.css";
 import App from "./App";
-import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router } from "react-router-dom";
+import store from './redux/store'
 
-render(
-  <Router>
-    <App />
-  </Router>,
-  document.getElementById("root")
-);
+const render = () => {
+  fancyLog()
+  return ReactDOM.render(
+    <Router>
+      <App />
+    </Router>,
+    document.getElementById("root")
+  )
+}
 
-serviceWorker.unregister();
+function fancyLog() {
+  console.log("%c Rendered with 👉 👉 👇 ", "background: purple; color: #FFF");
+  console.log(store.getState());
+}
+
+render()
+store.subscribe(render)

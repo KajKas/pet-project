@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Route, Switch } from "react-router-dom";
-import { store } from "./redux/store";
+import store from "./redux/store";
 
 import PageNotFound from "./PageNotFound";
 import LogInPage from "./components/LogInPage/LogInPage";
