@@ -3,7 +3,7 @@ import styled from "styled-components"
 import { Provider } from 'react-redux'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 
-import PageNotFound from "./PageNotFound"
+// import PageNotFound from "./PageNotFound"
 import LogInPage from "./components/LogInPage/LogInPage"
 import MenuTop from "./components/MenuTop/MenuTop"
 import MenuSide from "./components/MenuSide/MenuSide"
@@ -35,7 +35,7 @@ function App({ store }) {
               <MenuSide />
               <PageContainer>
                 <Route path="/home" component={HomePage} />
-                <Route exact path="/courses" render={() => <MyCoursesPage courses={store.getState().courses} />} />
+                <Route exact path="/courses" component={MyCoursesPage} />
                 <Route path="/courses/:id" component={CoursePage} />
                 <Route path="/tasks" component={TasksPage} />
                 <Route path="/tests" component={TestsPage} />

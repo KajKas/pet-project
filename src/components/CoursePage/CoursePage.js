@@ -1,21 +1,22 @@
 import React from 'react'
+import store from '../../redux/store'
 
-class CoursePage extends React.Component {
+const CoursePage = () => {
+  const state = store.getState()
+  const { courses, activeCourse } = state
 
-
-  render() {
-    return (
-      <div>
-        <h1>course name</h1>
-        <iframe
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          src={this.props.location.course.address}
-          frameBorder="0"
-          allowFullScreen
-        />
-      </div>
-    )
-  } 
+  return (
+    <div>
+      <h1>course name</h1>
+      <iframe
+        title={courses[activeCourse].name}
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        src={courses[activeCourse].address}
+        frameBorder="0"
+        allowFullScreen
+      />
+    </div>
+  )
 }
 
 export default CoursePage
