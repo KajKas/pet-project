@@ -2,15 +2,18 @@ import React, { Component } from "react";
 import _ from 'lodash'
 import { connect } from "react-redux"
 import { Link } from "react-router-dom";
-import store from '../../redux/store'
-import { setActiveCourse } from "../../redux/actions"
-import placeholder from "../images/placeholder.jpg";
+import * as actions from "../../redux/actions"
+import placeholder from "../images/placeholder.jpg"
 
 class MyCoursesPage extends Component {
+  componentDidMount() {
+    this.props.getAllCourses()
+  }
+
   render() {
     const courses = _.values(this.props.courses)
     const handleCourseClick = id => {
-      store.dispatch(setActiveCourse(id))
+      this.props.setActiveCourse(id)
     }
 
     return (
@@ -37,4 +40,4 @@ const mapStateToProps = state => {
   }
 }
 
-export default connect(mapStateToProps)(MyCoursesPage)
+export default connect(mapStateToProps, actions)(MyCoursesPage)
