@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import _ from 'lodash'
 import { connect } from "react-redux"
 import { Link } from "react-router-dom";
-import * as actions from "../../redux/actions"
-import placeholder from "../images/placeholder.jpg"
+import { getAllCourses, setActiveCourse } from "../../redux/actions"
+import placeholder from "../../images/placeholder.jpg"
 
 class MyCoursesPage extends Component {
   componentDidMount() {
@@ -38,6 +38,11 @@ const mapStateToProps = state => {
   return {
     courses: state.courses
   }
+}
+
+const actions = {
+  getAllCourses,
+  setActiveCourse
 }
 
 export default connect(mapStateToProps, actions)(MyCoursesPage)
