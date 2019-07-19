@@ -8,34 +8,47 @@ const MenuContainer = styled.nav`
   left: 0;
   right: 0;
   height: 60px;
-  background-color: #43464b;
+  background-color: #000;
   a {
     color: #fff;
     text-decoration: none;
+    float: left;
+    width: 250px;
   }
   a:last-of-type {
     float: right;
   }
-`;
+`
+
+const TopLink = styled(NavLink)`
+  height: 100%;
+  line-height: 60px;
+  border-right: 1px solid #fff;
+  text-align: center;
+  &:hover {
+    color: #000;
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+    box-sizing: border-box;
+  }
+`
 
 class MenuTop extends React.Component {
   render() {
     return (
       <MenuContainer>
-        <NavLink to="/home" exact>
+        <TopLink to="/home" exact>
           LOGO
-        </NavLink>
-        {" | "}
-        <NavLink to="/forum" exact>
+        </TopLink>
+        <TopLink to="/forum" exact>
           Forum
-        </NavLink>
-        {" | "}
-        <NavLink to="/categories" exact>
+        </TopLink>
+        <TopLink to="/categories" exact>
           Categories
-        </NavLink>
-        <NavLink to="/" exact>
+        </TopLink>
+        <TopLink to="/" exact>
           Log Out
-        </NavLink>
+        </TopLink>
       </MenuContainer>
     );
   }

@@ -8,14 +8,20 @@ const SideMenuContainer = styled.div`
   bottom: 0;
   left: 0;
   width: 200px;
-  background-color: #696B6F;
+  background-color: #fff;
+  border-right: 2px solid #000;
 `
 
 const SideLink = styled(NavLink)`
   display: block;
-  padding: 25px 0;
+  padding: 25px;
   text-decoration: none;
-  color: #fff;
+  color: #000;
+  border-bottom: 1px solid #000;
+  &:hover {
+    color: #fff;
+    background-color: #000;
+  }
 `
 
 class MenuSide extends React.Component {

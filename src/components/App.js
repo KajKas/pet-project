@@ -19,8 +19,8 @@ import CategoriesPage from "./CategoriesPage/CategoriesPage"
 
 const PageContainer = styled.div`
   padding-top: 60px;
-  padding-left: 200px;
-  background-color: #87898c;
+  padding-left: 250px;
+  background-color: #fff;
 `
 
 function App({ store }) {
