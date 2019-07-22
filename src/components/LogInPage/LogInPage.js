@@ -35,6 +35,7 @@ const LoginContainer = styled.div`
     text-align: center;
     line-height: 40px;
     font-size: 15px;
+    transition: 0.2s;
     &:hover {
       color: #fff;
       background-color: #000;

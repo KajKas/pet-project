@@ -1,26 +1,25 @@
 import React, { Component } from 'react'
 import { connect } from "react-redux"
-import { getAllCourses, setActiveCourse } from "../../redux/actions"
+import styled from 'styled-components'
+import CourseBar from "../CourseBar/CourseBar";
+
+const Video = styled.iframe`
+  width: 1280px;
+  height: 720px;
+`
 
 class CoursePage extends Component {
-  componentDidMount() {
-    this.props.getAllCourses()
-  }
-
   render() {
-    const courseId = this.props.location.pathname.split('courses/')[1]
-
     return (
-      this.props.courses && courseId &&
       <div>
-        {console.log(this.props.courses)}
-        <h1>course name</h1>
-        <iframe
-          title={this.props.courses[courseId].name} // TODO: change to getting from the address, or fail after reload
-          src={this.props.courses[courseId].address}
+        <h1>{this.props.courses[this.props.activeCourse].name}</h1>
+        <Video
+          title={this.props.courses[this.props.activeCourse].name}
+          src={this.props.courses[this.props.activeCourse].address}
           frameBorder="0"
           allowFullScreen
         />
+        <CourseBar />
       </div>
     )
   }
@@ -33,9 +32,4 @@ const mapStateToProps = state => {
   }
 }
 
-const actions = {
-  getAllCourses,
-  setActiveCourse
-}
-
-export default connect(mapStateToProps, actions)(CoursePage)
+export default connect(mapStateToProps)(CoursePage)

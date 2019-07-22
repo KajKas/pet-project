@@ -18,6 +18,7 @@ const SideLink = styled(NavLink)`
   text-decoration: none;
   color: #000;
   border-bottom: 1px solid #000;
+  transition: 0.2s;
   &:hover {
     color: #fff;
     background-color: #000;
