@@ -5,14 +5,6 @@ export const setActiveCourse = id => ({
   payload: id
 })
 
-export const getAllCourses = () => {
-  return (dispatch) => {
-    return axios.get('http://localhost:4000/courses').then((response) => {
-      const data = response.data
-      dispatch({
-        type: 'GET_ALL_COURSES',
-        payload: data
-      })
-    })
-  }
-}
+export const getAllCourses = () => ({
+  type: 'GET_ALL_COURSES',
+})
