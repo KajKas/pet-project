@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/KajKas/pet-project/static/css/main.34de6062.chunk.css",
-    "main.js": "/KajKas/pet-project/static/js/main.720aa951.chunk.js",
-    "main.js.map": "/KajKas/pet-project/static/js/main.720aa951.chunk.js.map",
-    "runtime~main.js": "/KajKas/pet-project/static/js/runtime~main.56dcd045.js",
-    "runtime~main.js.map": "/KajKas/pet-project/static/js/runtime~main.56dcd045.js.map",
-    "static/js/2.591f82ab.chunk.js": "/KajKas/pet-project/static/js/2.591f82ab.chunk.js",
-    "static/js/2.591f82ab.chunk.js.map": "/KajKas/pet-project/static/js/2.591f82ab.chunk.js.map",
-    "index.html": "/KajKas/pet-project/index.html",
-    "precache-manifest.7e7c14ffc41c66680e9cd905228ee4dc.js": "/KajKas/pet-project/precache-manifest.7e7c14ffc41c66680e9cd905228ee4dc.js",
-    "service-worker.js": "/KajKas/pet-project/service-worker.js",
-    "static/css/main.34de6062.chunk.css.map": "/KajKas/pet-project/static/css/main.34de6062.chunk.css.map",
-    "static/media/placeholder.jpg": "/KajKas/pet-project/static/media/placeholder.a494d17c.jpg",
-    "static/media/search_icon.png": "/KajKas/pet-project/static/media/search_icon.3fbd74cf.png"
+    "main.css": "/pet-project/static/css/main.34de6062.chunk.css",
+    "main.js": "/pet-project/static/js/main.720aa951.chunk.js",
+    "main.js.map": "/pet-project/static/js/main.720aa951.chunk.js.map",
+    "runtime~main.js": "/pet-project/static/js/runtime~main.ed0d9992.js",
+    "runtime~main.js.map": "/pet-project/static/js/runtime~main.ed0d9992.js.map",
+    "static/js/2.f5eea221.chunk.js": "/pet-project/static/js/2.f5eea221.chunk.js",
+    "static/js/2.f5eea221.chunk.js.map": "/pet-project/static/js/2.f5eea221.chunk.js.map",
+    "index.html": "/pet-project/index.html",
+    "precache-manifest.bd30ee10b7003cfb0d5d9d1992549c16.js": "/pet-project/precache-manifest.bd30ee10b7003cfb0d5d9d1992549c16.js",
+    "service-worker.js": "/pet-project/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/pet-project/static/css/main.34de6062.chunk.css.map",
+    "static/media/placeholder.jpg": "/pet-project/static/media/placeholder.a494d17c.jpg",
+    "static/media/search_icon.png": "/pet-project/static/media/search_icon.3fbd74cf.png"
   }
 }
