@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa62c234-4573-40e9-930f-995d25b78b4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/CourseBar/CourseBar.js" afterDir="false" />
+    <list default="true" id="fa62c234-4573-40e9-930f-995d25b78b4b" name="Default Changelist" comment="add images and json to repo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CoursePage/CoursePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CoursePage/CoursePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LogInPage/LogInPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LogInPage/LogInPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MenuSide/MenuSide.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuSide/MenuSide.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MenuTop/MenuTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuTop/MenuTop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MyCoursesPage/MyCoursesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyCoursesPage/MyCoursesPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,20 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/LogInPage/LogInPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="37" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/MenuTop/MenuTop.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="70" column="15" lean-forward="true" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+            <state relative-caret-position="646">
+              <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="37" selection-end-column="21" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -59,10 +43,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/MenuTop/MenuTop.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/MenuSide/MenuSide.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            <state relative-caret-position="76">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -74,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/HomePage/HomePage.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="7" selection-end-column="1" />
+              <caret line="1" selection-start-line="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -82,7 +87,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/MyCoursesPage/MyCoursesPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-82">
+            <state relative-caret-position="475">
               <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -94,7 +99,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/CoursePage/CoursePage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
+            <state relative-caret-position="342">
               <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
@@ -106,7 +111,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/CourseBar/CourseBar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1330">
+            <state relative-caret-position="1577">
               <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -194,6 +199,7 @@
         <option value="$PROJECT_DIR$/src/components/CoursePage/CoursePage.js" />
         <option value="$PROJECT_DIR$/src/components/CourseBar/CourseBar.js" />
         <option value="$PROJECT_DIR$/src/components/MenuTop/MenuTop.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -220,94 +226,6 @@
               <item name="pet-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="pet-project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pet-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pet-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pet-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pet-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="CourseBar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pet-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pet-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="CoursePage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pet-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pet-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="HomePage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pet-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pet-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="LogInPage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pet-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pet-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="MenuSide" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pet-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pet-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="MenuTop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pet-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pet-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="MyCoursesPage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pet-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pet-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pet-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pet-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pet-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pet-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pet-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pet-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pet-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pet-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -392,7 +310,8 @@
       <workItem from="1562933738693" duration="12000" />
       <workItem from="1563524980951" duration="1009000" />
       <workItem from="1563780173811" duration="605000" />
-      <workItem from="1563788122758" duration="4535000" />
+      <workItem from="1563788122758" duration="5346000" />
+      <workItem from="1563969790138" duration="370000" />
     </task>
     <task id="LOCAL-00001" summary="switch to basic redux usage">
       <created>1561101738678</created>
@@ -464,11 +383,25 @@
       <option name="project" value="LOCAL" />
       <updated>1563532828675</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="more styles, added sidebar for course navigation">
+      <created>1563793242097</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1563793242098</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add images and json to repo">
+      <created>1563795995131</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1563795995131</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63970000" />
+    <option name="totallyTimeSpent" value="65151000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -483,7 +416,7 @@
     <frame x="70" y="33" width="1850" height="1047" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09628009" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09628009" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -497,7 +430,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.33296943" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50054705" side_tool="true" weight="0.22200772" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49945295" weight="0.28820962" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49945295" visible="true" weight="0.28820962" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -579,7 +512,9 @@
     <MESSAGE value="switch initial state to json server and apply redux thunk" />
     <MESSAGE value="fix import" />
     <MESSAGE value="layouts and styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="layouts and styles" />
+    <MESSAGE value="more styles, added sidebar for course navigation" />
+    <MESSAGE value="add images and json to repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add images and json to repo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/PageNotFound.js">
@@ -639,13 +574,6 @@
     <entry file="file://$PROJECT_DIR$/src/redux/configureStore.js" />
     <entry file="file://$PROJECT_DIR$/src/redux/reducers/coursesReducer.js" />
     <entry file="file://$PROJECT_DIR$/src/redux/reducers/initialState.js" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -698,27 +626,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LogInPage/LogInPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="37" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/reducers/courses.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HomePage/HomePage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -733,26 +644,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db.json">
+    <entry file="file://$PROJECT_DIR$/src/components/LogInPage/LogInPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MenuSide/MenuSide.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        <state relative-caret-position="646">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="37" selection-end-column="21" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MenuSide/MenuSide.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HomePage/HomePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MyCoursesPage/MyCoursesPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/CoursePage/CoursePage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="342">
           <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
@@ -762,7 +693,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/CourseBar/CourseBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1330">
+        <state relative-caret-position="1577">
           <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
@@ -770,23 +701,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MyCoursesPage/MyCoursesPage.js">
+    <entry file="file://$PROJECT_DIR$/db.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="722">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MenuTop/MenuTop.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="70" column="15" lean-forward="true" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+        <state relative-caret-position="412">
+          <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
         </state>
       </provider>
     </entry>
