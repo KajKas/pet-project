@@ -92,8 +92,6 @@ class TasksPage extends React.Component {
         <h3>These are the tasks to perform as homework. They are not obligatory but very useful in practicing your newly acquired skills</h3>
 
         <TaskContainer>
-
-
           <div>
             <TaskCheckboxContainer>
               <input type="checkbox"/>
@@ -101,7 +99,6 @@ class TasksPage extends React.Component {
             </TaskCheckboxContainer>
             <TaskTitle>Task 1.1</TaskTitle>
           </div>
-
 
           <p>Using knowledge from lesson 1, create three div inside of each other with different sizes and colors. The effect of your work should be similar to this:</p>
           <OuterDiv>
