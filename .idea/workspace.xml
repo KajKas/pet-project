@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa62c234-4573-40e9-930f-995d25b78b4b" name="Default Changelist" comment="mock tests page">
+    <list default="true" id="fa62c234-4573-40e9-930f-995d25b78b4b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactPage/ContactPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactPage/ContactPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TasksPage/TasksPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TasksPage/TasksPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CategoriesPage/CategoriesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CategoriesPage/CategoriesPage.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +127,7 @@
       <workItem from="1563969790138" duration="2208000" />
       <workItem from="1566645328625" duration="1529000" />
       <workItem from="1566646869180" duration="1157000" />
-      <workItem from="1566736185026" duration="4392000" />
+      <workItem from="1566736185026" duration="5347000" />
     </task>
     <task id="LOCAL-00001" summary="switch to basic redux usage">
       <created>1561101738678</created>
@@ -256,7 +255,21 @@
       <option name="project" value="LOCAL" />
       <updated>1566738475605</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="mock contact page">
+      <created>1566740672385</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1566740672385</updated>
+    </task>
+    <task id="LOCAL-00020" summary="change pages' titles">
+      <created>1566741010509</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1566741010509</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -317,6 +330,8 @@
     <MESSAGE value="mock tasks page" />
     <MESSAGE value="mocking tests in progress" />
     <MESSAGE value="mock tests page" />
-    <option name="LAST_COMMIT_MESSAGE" value="mock tests page" />
+    <MESSAGE value="mock contact page" />
+    <MESSAGE value="change pages' titles" />
+    <option name="LAST_COMMIT_MESSAGE" value="change pages' titles" />
   </component>
 </project>
