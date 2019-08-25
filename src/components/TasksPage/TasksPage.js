@@ -100,7 +100,7 @@ class TasksPage extends React.Component {
             <TaskTitle>Task 1.1</TaskTitle>
           </div>
 
-          <p>Using knowledge from lesson 1, create three div inside of each other with different sizes and colors. The effect of your work should be similar to this:</p>
+          <p>Using knowledge from lesson 1, create three divs inside of each other with different sizes and colors. The effect of your work should be similar to this:</p>
           <OuterDiv>
             <MiddleDiv>
               <InnerDiv></InnerDiv>
