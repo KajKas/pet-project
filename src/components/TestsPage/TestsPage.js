@@ -83,7 +83,7 @@ class TestsPage extends React.Component {
   render() {
     return (
       <div>
-        <h1>Tests Page</h1>
+        <h1>Tests</h1>
         <h3>Passing tests is is required to acquire the certificate for finishing your courses. The minimum to pass is 70% of correct answers.</h3>
         <TestContainer>
           <h2>Test 1.1</h2>

@@ -6,7 +6,7 @@ class ForumPage extends React.Component {
   render() {
     return (
       <div>
-        <h1>Forum Page</h1>
+        <h1>Forum</h1>
       </div>
     )
   }

@@ -88,7 +88,7 @@ class TasksPage extends React.Component {
   render() {
     return (
       <div>
-        <h1>Tasks Page</h1>
+        <h1>Tasks</h1>
         <h3>These are the tasks to perform as homework. They are not obligatory but very useful in practicing your newly acquired skills</h3>
 
         <TaskContainer>

@@ -59,7 +59,7 @@ class ContactPage extends React.Component {
   render() {
     return (
       <div>
-        <h1>Contact Page</h1>
+        <h1>Contact</h1>
         <h3>If you would like to contact us or an author of a specific course, you can do it here by choosing an appropriate subject. You will be answered via email.</h3>
         <ContactForm>
           <FormSelect required>
